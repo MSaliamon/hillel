@@ -1,0 +1,12 @@
+@mixin montserrat($fs, $fw, $lh) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+@mixin flex($jc, $ai, $gp) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $gp;
+}

@@ -1,0 +1,207 @@
+@import './mixins';
+@import './reset';
+@import './vars';
+
+
+body {
+    background: $gradient-supersoft;
+}
+.header {
+    @include flex(space-between, center, 0);
+    padding: 50px 160px 5px 160px;
+    &__wrap {
+        @include flex(center, center, 18px);
+        flex-direction: column;
+        z-index: 1000;
+    }
+    &__container {
+        @include flex(center, center, 6px);
+    }
+    &__language {
+        @include flex(center, center, 0);
+    }
+    &__language-box {
+        padding: 5px 7px;
+    }
+    &__language-link {
+        @include montserrat(12px, 700, 18px);
+        color: $white;
+    }
+    &__language-box:active {
+        background-color: $Accent;
+        border-radius: 8px;
+    }
+    &__text {
+        @include montserrat(16px, 400, 18px);
+        color: $white;
+    }
+    &__tell {
+        @include montserrat(16px, 700, 18px);
+        color: $white;
+    }
+}
+.nav__list {
+    @include flex(center, center, 15px);
+}
+.nav__link {
+    @include montserrat(16px, 700, 18px);
+    color: $white;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.section1 {
+    @include flex(center, center, 0);
+    flex-direction: column;
+    &__symbol {
+        margin-top: -120px;
+    }
+    &__text {
+        @include montserrat(38px, 700, 18px);
+        position: absolute;
+        top: 477px;
+        color: $white;
+    }
+    &__scroll {
+        margin-top: -70px;
+    }
+    &__scroll:hover {
+        color: $Accent;
+    }
+}
+.section2 {
+    @include flex(center, center, 80px);
+    &-container {
+        @include flex(center, flex-end, 60px);
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    &-container__text {
+        @include montserrat(38px, 700, 18px);
+        color: $grey-text;
+    }
+    &-container__text:hover {
+        color: $Accent;
+    }
+    &-container__sub-text1 {
+        @include montserrat(30px, 700, 18px);
+        color: $white;
+    }
+    &-container__sub-text2 {
+        @include montserrat(19px, 400, 30px);
+        color: $white;
+        width: 100%;
+        margin-right: 70px;
+    }
+}
+.contain {
+    @include flex(center, flex-start, 30px);
+}
+.section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 160px;
+    gap: 60px;
+    &__textbox {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__services-box {
+        display: flex;
+        gap: 2px;
+        align-self: stretch;
+    }
+    &__secvices-text {
+        @include flex(14px, 700, 18px);
+        color: $white;
+    }
+    &__secvices-text:hover {
+        color: $Accent;
+    }
+    &__title {
+        @include montserrat(38px, 700, 18px);
+        color:$Accent;
+    }
+    &-container {
+        @include flex(center, flex-start, 60px);
+    }
+    &-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &-box__phone {
+        display: flex;
+        padding: 14px;
+        border-radius: 24px;
+        background: $white;
+        width: 20%;
+    }
+    &-box__textbox {
+        @include flex(flex-start, flex-start, 15px);
+        flex-direction: column;
+    }
+    &-box__textbox-title {
+        @include montserrat(22px, 700, 18px);
+        color: $active-regular;
+    }
+    &-box__textbox-text {
+        @include montserrat(16px, 400, 26px);
+        color: $white;
+        width: 100%;
+    }
+}
+.section4 {
+    @include flex(flex-start, center, 30px);
+    flex-direction: column;
+    background-color: $white;
+    padding-top: 40px;
+    &__container {
+        display: flex;
+        flex-direction: row;
+        background-color: $grey-bg;
+    }
+    &-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+    }
+    &-box__textbox {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    &-box__link {
+        display: flex;
+    }
+    &-box__link-text {
+        @include montserrat(14px, 700, 18px);
+        color:$main-regular;
+    }
+    &-box__link-text:active {
+        color: $active-regular;
+    }
+    &-box__text {
+        @include montserrat(38px, 700, 40px);
+        color: $Accent;
+        width: 100%;
+    }
+    &-box__textbox-name {
+        @include montserrat(16px, 700, 18px);
+        color: $grey-text;
+        width: 100%;
+    }
+    .section4-box__textbox-department {
+        @include montserrat(14px, 400, 22px);
+        color: $grey-text;
+        width: 100%;
+    }
+    &__dot-container {
+        display: flex;
+        gap: 15px;
+    }
+}
