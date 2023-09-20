@@ -216,7 +216,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 75px;
 }
 
 .section1 {
@@ -265,6 +264,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 80px;
+  margin-top: 75px;
 }
 .section2-container {
   display: -webkit-box;
@@ -333,6 +333,7 @@ body {
           flex-direction: column;
   padding: 0px 160px;
   gap: 60px;
+  margin-top: 75px;
 }
 .section3__textbox {
   display: -webkit-box;
@@ -454,6 +455,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #fff;
+  margin-top: 75px;
   padding-top: 40px;
 }
 .section4__container {
@@ -531,4 +533,70 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 15px;
+}
+
+.section5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  padding-top: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+.section5__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section5-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section5-box__phone1 {
+  padding: 36px 106px 36px 107px;
+  background-color: #1C4280;
+}
+.section5-box__phone2 {
+  padding: 0px 115px 0px 116px;
+  background-color: #143646;
+}
+.section5-box__phone3 {
+  padding: 38px 125px 38px 126px;
+  background-color: #F48B30;
+}
+.section5-box__phone4 {
+  padding: 39px 125px;
+  background-color: #9E4DC3;
+}
+.section5-box__phone5 {
+  padding: 38px 128px;
+  background-color: #F48B30;
+}
+
+.phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0px;
 }
