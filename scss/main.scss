@@ -213,6 +213,11 @@ body {
     padding-top: 60px;
     flex-direction: column;
     background-color: $white;
+    &__text {
+        @include montserrat(14px, 700, 18px);
+        text-transform: uppercase;
+        color: $main-regular;
+    }
     &__container {
         display: flex;
         flex-direction: column;

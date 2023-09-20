@@ -553,6 +553,14 @@ body {
           flex-direction: column;
   background-color: #fff;
 }
+.section5__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #323264;
+}
 .section5__container {
   display: -webkit-box;
   display: -ms-flexbox;
