@@ -277,3 +277,30 @@ body {
 .phone {
     @include flex(center, center, 0px);
 }
+.section6 {
+    padding: 80px 160px 0px 160px;
+    background-color: $grey-bg;
+    &-box {
+        @include flex(flex-start, flex-start, 10px);
+        flex-direction: column;
+    }
+    &-box__link {
+        display: flex;
+    }
+    &-box__link-text {
+        @include montserrat(14px, 700, 18px);
+        color: $active-regular;
+    }
+    &__title {
+        @include montserrat(38px, 700, 40px);
+        color: $Accent;
+    }
+    &-container {
+        display: flex;
+        gap: 30px;
+    }
+    &-container__box {
+        display: flex;
+        flex-direction: column;
+    }
+}
