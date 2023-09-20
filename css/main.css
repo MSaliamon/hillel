@@ -587,6 +587,34 @@ body {
   padding: 38px 128px;
   background-color: #F48B30;
 }
+.section5-box__phone6 {
+  padding: 36px 102.722px 36px 103.917px;
+  background-color: #E2E2E4;
+}
+.section5-box__phone7 {
+  padding: 29px 146px 30px 146px;
+  background-color: #C71C36;
+}
+.section5-box__phone8 {
+  padding: 22px 142px;
+  background-color: #DCF3F9;
+}
+.section5-box__phone9 {
+  padding: 30px 124px;
+  background-color: #EAEAEA;
+}
+.section5-box__phone10 {
+  padding: 41px 124px 41px 125px;
+  background-color: #282240;
+}
+.section5-box__phone11 {
+  padding: 37px 120px 37px 121px;
+  background-color: #1D4568;
+}
+.section5-box__phone12 {
+  padding: 13px 139px 12px 139px;
+  background-color: #000;
+}
 
 .phone {
   display: -webkit-box;

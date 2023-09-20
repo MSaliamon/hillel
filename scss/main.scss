@@ -222,7 +222,7 @@ body {
     }
     &-box__phone1 {
         padding: 36px 106px 36px 107px;
-        background-color: $dark-blue-logo;
+        background-color: $blue-logo;
     }
     &-box__phone2 {
         padding: 0px 115px 0px 116px;
@@ -239,6 +239,34 @@ body {
     &-box__phone5 {
         padding: 38px 128px;
         background-color: $orange-logo;
+    }
+    &-box__phone6 {
+        padding: 36px 102.722px 36px 103.917px;
+        background-color: $grey-logo;
+    }
+    &-box__phone7 {
+        padding: 29px 146px 30px 146px;
+        background-color: $red-logo;
+    }
+    &-box__phone8 {
+        padding: 22px 142px;
+        background-color: $light-blue-logo;
+    }
+    &-box__phone9 {
+        padding: 30px 124px;
+        background-color: $dark-grey-logo;
+    }
+    &-box__phone10 {
+        padding: 41px 124px 41px 125px;
+        background-color: $dark-purple-logo;
+    }
+    &-box__phone11 {
+        padding: 37px 120px 37px 121px;
+        background-color: $dark-blue-logo;
+    }
+    &-box__phone12 {
+        padding: 13px 139px 12px 139px;
+        background-color: $dark;
     }
 }
 .phone {
