@@ -280,6 +280,9 @@ body {
 .section6 {
     padding: 80px 160px 0px 160px;
     background-color: $grey-bg;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     &-box {
         @include flex(flex-start, flex-start, 10px);
         flex-direction: column;
@@ -302,5 +305,29 @@ body {
     &-container__box {
         display: flex;
         flex-direction: column;
+        width: 60%;
+    }
+    &-container__textbox {
+        @include flex(flex-start, flex-start, 15px);
+        padding: 30px;
+        flex-direction: column;
+    }
+    &-container__textbox-active-text {
+        @include montserrat(16px, 700, 18px);
+        color: $active-regular;
+    }
+    &-container__textbox-date {
+        @include montserrat(12px, 700, 18px);
+        text-transform: uppercase;
+        color: $grey-text;
+    }
+    &-container__textbox-line {
+        height: 4px;
+        align-self: stretch;
+        background-color: $grey-separator;
+    }
+    &-container__textbox-text {
+        @include montserrat(14px, 400, 22px);
+        color: $dark;
     }
 }
