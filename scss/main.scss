@@ -214,7 +214,7 @@ body {
         color: $grey-text;
         width: 100%;
     }
-    .section4-box__textbox-department {
+    &-box__textbox-department {
         @include montserrat(14px, 400, 22px);
         color: $grey-text;
         width: 100%;
@@ -409,6 +409,12 @@ body {
     .section3-box__textbox {
         width: 98%;
     }
+    .section3-container {
+        gap: 39px;
+    }
+    .section3-box__textbox-text {
+        width: 99%;
+    }
     .section4-box__text {
         width: 89%;
     }
@@ -424,5 +430,86 @@ body {
 
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    
+    .header {
+        padding: 50px 60px 5px 60px;
+    }
+    .section1__symbol {
+        width: 70%;
+    }
+    .contain {
+        margin-left: 100px;
+    }
+    .section2-container__sub-text1 {
+        width: 50%;
+        line-height: 30px;
+    }
+    .section2-container__sub-text2 {
+        width: 45%;
+    }
+    .section3 {
+        padding: 0px 60px;
+    }
+    .section3-box__phone {
+        width: 25%;
+    }
+    .section3-box__textbox-text {
+        width: 98%;
+    }
+    .more--width {
+        width: 99%;
+    }
+    .section4 {
+        padding: 0px 60px;
+    }
+    .section4__img {
+        width: 80%;
+    }
+    .section4-box__text {
+        width: 99%;
+    }
+    .section4 {
+        padding-top: 70px;
+    }
+    .section5-box__phone1 {
+        padding: 36px 19px 36px 20px;
+    }
+    .section5-box__phone2 {
+        padding: 0px 28px 0px 29px;
+    }
+    .section5-box__phone3 {
+        padding: 38px;
+    }
+    .section5-box__phone4 {
+        padding: 39px 38px;
+    }
+    .section5-box__phone5 {
+        padding: 38px 42px;
+    }
+    .section5-box__phone6 {
+        padding: 30px 33.156px 36px 1.867px;
+    }
+    .section5-box__phone7 {
+        padding: 29px 59px 30px 59px;
+    }
+    .section5-box__phone8 {
+        padding: 22px 55px;
+    }
+    .section5-box__phone9 {
+        padding: 30px 37px;
+    }
+    .section5-box__phone10 {
+        padding: 41px 37px 41px 38px;
+    }
+    .section5-box__phone11 {
+        padding: 37px 33px 37px 34px;
+    }
+    .section5-box__phone12 {
+        padding: 13px 52px 12px 52px;
+    }
+    .section6 {
+        padding: 80px 60px 0px 60px;
+    }
+    .section6-container {
+        gap: 24px;
+    }
 }
