@@ -274,7 +274,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 30px;
+  margin-left: 340px;
 }
 .section2-container__text {
   font-family: "Montserrat", sans-serif;
@@ -554,7 +560,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
-  padding-top: 60px;
+  padding: 60px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -577,6 +583,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .section5-box {
   display: -webkit-box;
@@ -976,5 +984,191 @@ body {
   }
   .section6-container {
     gap: 24px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 50px 60px 5px 60px;
+  }
+  .header__wrap {
+    gap: 100px;
+    margin-right: 150px;
+  }
+  .logo {
+    margin-top: -48px;
+    z-index: 100;
+    margin-right: 220px;
+  }
+  .section1__symbol {
+    margin-top: -200px;
+  }
+  .section1__text {
+    top: 400px;
+  }
+  .section2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 120px;
+  }
+  .section2-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;
+    margin-left: 0px;
+  }
+  .innovative {
+    margin-right: -162px;
+  }
+  .business {
+    display: none;
+  }
+  .section2-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 60px;
+  }
+  .section2-container__sub-text2 {
+    width: 100%;
+  }
+  .section3 {
+    padding: 0px 54px;
+    margin-bottom: 800px;
+  }
+  .section3 .more--width {
+    width: 100%;
+  }
+  .section3 .more--width2 {
+    width: 80%;
+  }
+  .section3 .mobile--more-width {
+    width: 80%;
+  }
+  .section3__title {
+    line-height: 30px;
+  }
+  .section3-box__phone {
+    width: 30%;
+  }
+  .section3-box__textbox-text {
+    width: 100%;
+  }
+  .box-position1 {
+    position: absolute;
+    top: 1850px;
+    left: 60px;
+    width: 40%;
+  }
+  .box-position2 {
+    position: absolute;
+    top: 1850px;
+    left: 380px;
+  }
+  .box-position3 {
+    position: absolute;
+    top: 2250px;
+    left: 60px;
+  }
+  .box-position4 {
+    position: absolute;
+    top: 2250px;
+    left: 380px;
+  }
+  .section4__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section4-box__text {
+    width: 85%;
+  }
+  .section5__container {
+    width: 105%;
+  }
+  .section5-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section5-box__phone1 {
+    padding: 36px 19px 36px 20px;
+  }
+  .section5-box__phone2 {
+    padding: 0px 28px 0px 29px;
+  }
+  .section5-box__phone3 {
+    padding: 38px 28px 38px 46px;
+  }
+  .section5-box__phone4 {
+    padding: 39px 38px;
+    position: absolute;
+    top: 3946px;
+  }
+  .section5-box__phone5 {
+    padding: 38px 41px;
+    position: absolute;
+    top: 3946px;
+    left: 236px;
+  }
+  .section5-box__phone6 {
+    padding: 36px 2.156px 36px 31.867px;
+    position: absolute;
+    top: 3946px;
+    left: 489px;
+  }
+  .section5-box__phone7 {
+    padding: 29px 59px 30px 59px;
+    position: absolute;
+    top: 4066px;
+  }
+  .section5-box__phone8 {
+    padding: 22px 55px;
+    position: absolute;
+    top: 4066px;
+    left: 236px;
+  }
+  .section5-box__phone9 {
+    padding: 34px 49px;
+    position: absolute;
+    top: 4066px;
+    left: 489px;
+  }
+  .section5-box__phone10 {
+    padding: 41px 37px 41px 38px;
+    position: absolute;
+    top: 4186px;
+  }
+  .section5-box__phone11 {
+    padding: 37px 33px 37px 34px;
+    position: absolute;
+    top: 4186px;
+    left: 236px;
+  }
+  .section5-box__phone12 {
+    padding: 13px 52px 12px 56px;
+    position: absolute;
+    top: 4186px;
+    left: 489px;
+  }
+  .section6 {
+    margin-top: 298px;
+    padding: 80px 60px 480px 60px;
+  }
+  .section6 .mobile--box {
+    position: absolute;
+    top: 4950px;
+    width: 88%;
+  }
+  .footer {
+    padding: 30px 30px;
   }
 }
