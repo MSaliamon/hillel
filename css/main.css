@@ -216,6 +216,10 @@ body {
   color: #fff;
 }
 
+.nav__link:active {
+  color: #F0145A;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -459,6 +463,9 @@ body {
 }
 .section3 .more--width2 {
   width: 100%;
+}
+.section3 .section3-box__textbox-title:hover {
+  color: #F0145A;
 }
 
 .section4 {

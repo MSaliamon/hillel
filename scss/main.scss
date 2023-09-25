@@ -53,6 +53,9 @@ body {
     @include montserrat(16px, 700, 18px);
     color: $white;
 }
+.nav__link:active {
+    color: $Accent;
+}
 .main {
     display: flex;
     flex-direction: column;
@@ -177,6 +180,9 @@ body {
     }
     .more--width2 {
         width: 100%;
+    }
+    .section3-box__textbox-title:hover {
+        color: $Accent;
     }
 }
 .section4 {
