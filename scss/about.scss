@@ -87,7 +87,26 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-left: 30px;
     border-left : 2px solid $grey-separator;
+    &__box {
+        display: flex;
+        flex-direction: column;
+    }
+    &__svg-box {
+        display: flex;
+        gap: 10px;
+    }
+    &__text {
+        @include montserrat(36px, 700, 36px);
+        text-align: center;
+        color: $Accent;
+    }
+    &__info-text {
+        @include montserrat(16px, 400, 18px);
+        width: 100%;
+        color: $main-regular;
+    }
 }
 
 
