@@ -46,6 +46,7 @@ body {
 .mobile-hamburger {
     display: none;
 }
+
 .nav__list {
     @include flex(center, center, 15px);
 }
